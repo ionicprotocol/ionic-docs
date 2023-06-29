@@ -1,0 +1,18 @@
+---
+description: >-
+  The following is information for the Jarvis jFIAT Pool on Polygon via Beefy
+  Finance
+---
+
+# Jarvis jFIAT Pool
+
+Forex-focused pools allowing users to take positions on Forex currencies.  In addition to earning yield on productive assets such as Curve LP tokens, while also using them as collateral for the pool, the Curve LP tokens get staked into Beefy vaults earning users even more yield.
+
+**Deposit / Stake Instructions:**\
+1\) Go to the Curve pool link in the "⬆️ Receive LP Token Here" column below, and add liquidity to receive your LP Token(s) for the strategy of your choice.\
+2\) Come back to the Midas pool in the "⬇ Deposit LP Token Here" column to deposit your LP token(s) and earn yield.
+
+**Supported Strategies:**
+
+<table><thead><tr><th width="203.7142857142857">Supported Strategies</th><th width="159" align="center">⬆️ Receive LP Token Here</th><th width="150">⬇ Deposit LP Token Here</th><th width="150">Vault</th><th>Strategy Documentation</th></tr></thead><tbody><tr><td>EURe-jEUR</td><td align="center"><a href="https://polygon.curve.fi/factory/304/deposit">Curve Pool 304</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2eure">https://app.beefy.com/vault/jarvis-2eure</a></td></tr><tr><td>agEUR-jEUR</td><td align="center"><a href="https://polygon.curve.fi/factory/209/deposit">Curve Pool 209</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2eur">https://app.beefy.com/vault/jarvis-2eur</a></td></tr><tr><td>jEUR-PAR</td><td align="center"><a href="https://polygon.curve.fi/factory/285">Curve Pool 285</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2eurp">https://app.beefy.com/vault/jarvis-2eurp</a></td></tr><tr><td>jJPY-JPYC (2JPY-2)</td><td align="center"><a href="https://polygon.curve.fi/factory/255">Curve Pool 255</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2jpy2">https://app.beefy.com/vault/jarvis-2jpy2</a></td></tr><tr><td>jCAD-CADC</td><td align="center"><a href="https://polygon.curve.fi/factory/23">Curve Pool 23</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2cad">https://app.beefy.com/vault/jarvis-2cad</a></td></tr><tr><td>jSGD-XSGD</td><td align="center"><a href="https://polygon.curve.fi/factory/22">Curve Pool 22</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2sgd">https://app.beefy.com/vault/jarvis-2sgd</a></td></tr><tr><td>jNZD-NZDS</td><td align="center"><a href="https://polygon.curve.fi/factory/228">Curve Pool 228</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2nzd">https://app.beefy.com/vault/jarvis-2nzd</a></td></tr><tr><td>jEUR-EURT</td><td align="center"><a href="https://polygon.curve.fi/factory/286">Curve Pool 286</a></td><td><a href="https://app.midascapital.xyz/137/pool/1">https://app.midascapital.xyz/137/pool/1</a></td><td>Beefy</td><td><a href="https://app.beefy.com/vault/jarvis-2eurt">https://app.beefy.com/vault/jarvis-2eurt</a></td></tr></tbody></table>
+
