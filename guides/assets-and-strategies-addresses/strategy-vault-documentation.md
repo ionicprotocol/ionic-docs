@@ -1,5 +1,0 @@
-# Strategy/Vault Documentation
-
-**Supported Strategies/Vaults**
-
-<table><thead><tr><th width="172.33333333333331">Chain</th><th>Strategy/Vault</th><th>Documentation Link</th></tr></thead><tbody><tr><td>Polygon</td><td>Jarvis (Beefy)</td><td><a href="https://polygon-yield.jarvis.network/info">https://polygon-yield.jarvis.network/info</a></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td>Elipsis</td><td><a href="https://docs.ellipsis.finance/">https://docs.ellipsis.finance/</a></td></tr><tr><td></td><td>Dot Dot Finance</td><td><a href="https://docs.dotdot.finance/">https://docs.dotdot.finance/</a></td></tr><tr><td>Binance Smart Chain</td><td>Bomb Money</td><td><a href="https://docs.bomb.money/welcome-start-here/readme">https://docs.bomb.money/welcome-start-here/readme</a></td></tr><tr><td>Moonbeam</td><td>StellaSwap</td><td><a href="https://docs.stellaswap.com/how-to-guides/swap-pool-and-farm/how-to-farm-stake-lp-token">https://docs.stellaswap.com/how-to-guides/swap-pool-and-farm/how-to-farm-stake-lp-token</a></td></tr><tr><td></td><td>Curve</td><td><a href="https://moonbeam.curve.fi/">https://moonbeam.curve.fi/</a></td></tr></tbody></table>
