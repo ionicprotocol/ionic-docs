@@ -58,7 +58,7 @@ Specifically, for every asset that is supported in Ionic we implement a continue
 
 Our oracle monitors for assets based on AMMs will trigger alerts, and pause borrowing if the on-chain liquidity for an asset drops below pre-defined thresholds, configured per-asset.
 
-The source code can be found in our monorepo.
+The source code can be found in our [monorepo](https://github.com/ionicprotocol/monorepo/tree/development/packages/monitors/oracle).
 
 #### Generalised Oracle Risk Score \[Currently in Development]
 

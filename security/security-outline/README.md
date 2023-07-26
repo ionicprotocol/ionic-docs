@@ -23,12 +23,12 @@ Tier 2 or 3 pool can only be created by Ionic after thorough investigation and s
 **1.** The risk of onboarding assets and pricing them correctly. These risks mainly affect the economic security of individual pools and assets need to be carefully monitored and selected.
 
 \
-Learn more about Midas approach to these so called Oracle Risks [here](oracle-security.md).\
+Learn more about Ionic approach to these so called Oracle Risks [here](oracle-security.md).\
 \
 **2.** Smart Contract risk of the Ionic Core contracts and the Ionic SDK/FE. These risks are mainly a consequence of code quality and engineering processes. The main mitigation factors are extensive internal testing infrastructure, usage of battle tested and standardized code wherever possible and external code audits.
 
 \
-Learn more about Midas engineering practices [here](../../developers/midas-sdk/), and about our risk-scoring framework for ERC4626 strategies [here](yield-bearing-4626-strategy-risk-scoring.md).\
+Learn more about Ionic engineering practices [here](../../developers/midas-sdk/), and about our risk-scoring framework for ERC4626 strategies [here](yield-bearing-4626-strategy-risk-scoring.md).\
 \
 **3.** Pool Operator risk of the independent operators using underlying Ionic contracts. These risks are mostly centered around keeping bad actors from abusing the system. Mitigation mechanisms are the permissioning of the oracle creation process and the B2B approach of the Ionic to work very closely with our partners.
 
