@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Welcome to Ionic](README.md)
+* [Ionic pools](ionic-pools.md)
+* [Yield-Bearing Vaults (ERC-4626)](yield-bearing-vaults-erc-4626.md)
 
 ## Partner & Pool Operator Documents
 
@@ -28,7 +30,7 @@
 
 ## Developers
 
-* [Midas SDK](developers/midas-sdk/README.md)
+* [Ionic SDK](developers/midas-sdk/README.md)
   * [Chain Configuration and Addresses](developers/midas-sdk/chain-configuration-and-addresses.md)
   * [Data Fetching & Pool Introspection](developers/midas-sdk/data-fetching-and-pool-introspection.md)
   * [Funding Operations](developers/midas-sdk/funding-operations.md)

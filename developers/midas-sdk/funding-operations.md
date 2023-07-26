@@ -6,7 +6,7 @@ description: >-
 
 # Funding Operations
 
-Enabling programmatic control of these operations offers a powerful shorthand to developers interested in integrating with Midas Capital.&#x20;
+Enabling programmatic control of these operations offers a powerful shorthand to developers interested in integrating with Ionic.
 
 The functions here shown enable the typical interactions with a Money Market:
 

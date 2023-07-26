@@ -16,7 +16,7 @@ This standard allows the combination of liquidity provision of assets without th
 
 However, once in these platforms, they no longer become liquid: they can’t be used anywhere else. At Ionicl, we built integrations with yield aggregators such that users can deposit their LP tokens on Ionic, have them automatically staked into they yield aggregator platforms, while at the same time being able to borrow against them. You can have your cake and eat it (too).
 
-### Developing ERC4626 Strategies At Midas Capital
+### Developing ERC4626 Strategies At Ionic
 
 At Ionic, we’ve built a set of strategies that target the most prominent yield aggregator platforms & protocols. Examples of these are:
 

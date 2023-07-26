@@ -13,7 +13,7 @@ Initialisation always works the same way -- pick a chain and a provider, and cre
 // Initialisation always works the same way -- 
 // pick a chain and a provider, and create the Fuse object
 
-const sdk = new MidasSdk(provider, chainId);
+const sdk = new IonicSdk(provider, chainId);
 ```
 
 ### `fetchFusePoolData`
@@ -23,20 +23,20 @@ const sdk = new MidasSdk(provider, chainId);
 * `poolId: string`
 * `address?: string`
 
-**Returns:**&#x20;
+**Returns:**
 
 * `Promise<FusePoolData>`
 
-The `poolId` is the canonical pool index, retrievable via the UI. E.g. [https://app.midascapital.xyz/56/pool/1](https://app.midascapital.xyz/56/pool/1) -> `poolId = 1`&#x20;
+The `poolId` is the canonical pool index, retrievable via the UI. E.g. https://app.ionic.money/56/pool/1 -> `poolId = 1`
 
-The `address` is the address of a pool user, e.g. someone that has provided liquidity, or borrowed assets. If passed, the function will returned detailed information about the user's balances.&#x20;
+The `address` is the address of a pool user, e.g. someone that has provided liquidity, or borrowed assets. If passed, the function will returned detailed information about the user's balances.
 
 ```typescript
 const fusePoolData = await sdk.fetchFusePoolData("1", "0x111...")
 
 fusePoolData.assets.map((a) => console.log(a.underlyingSymbol));
 
->>> "jBRL", "2brl", "WBNB", "ETH", "BUSD"
+>>> "2brl", "WBNB", "ETH", "BUSD"
 ```
 
 This returns a `Promise` of [`FusePoolData`](api-reference-typing-and-interfaces.md#fusepooldata). Check out the type definition for more information about the data contained in it.
@@ -48,7 +48,7 @@ This returns a `Promise` of [`FusePoolData`](api-reference-typing-and-interfaces
 * `filter: string | null`
 * `options: { from: string })`
 
-**Returns:**&#x20;
+**Returns:**
 
 * `Promise<FusePoolData[]>`
 
@@ -65,9 +65,8 @@ Passing the `{ from: address }` will return the detailed balances of the address
 * `verification: boolean`
 * `options: { from: string }`
 
-**Returns:**&#x20;
+**Returns:**
 
 * `Promise<(FusePoolData | null)[] | undefined>`
 
 Slightly optimised data fetching function for expensive calculations that handles failures gracefully in case of using less efficient RPC endpoints
-

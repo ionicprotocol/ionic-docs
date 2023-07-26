@@ -7,11 +7,11 @@ description: >-
 
 # Liquidations
 
-While we run our own bots for ensuring that liquidations occur smoothly, users are also incentivised to the same, as every liquidation might be a healthy source of profit, since each liquidation comes with a [liquidation incentive](https://compound.finance/docs/comptroller#liquidation-incentive).&#x20;
+While we run our own bots for ensuring that liquidations occur smoothly, users are also incentivised to the same, as every liquidation might be a healthy source of profit, since each liquidation comes with a [liquidation incentive](https://compound.finance/docs/comptroller#liquidation-incentive).
 
 The source code for the liquidation bots we run is fully open-sourced, and it leverages heavily the SDK. Users are welcomed to fork it and run their own liquidation bots.
 
-Check it out in our [monorepo](https://github.com/Midas-Protocol/monorepo/tree/development/packages/bots/fuse-liquidator-bot).
+Check it out in our [monorepo](https://github.com/ionicprotocol/monorepo).
 
 ## Gathering Liquidations
 

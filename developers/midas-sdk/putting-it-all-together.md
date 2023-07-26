@@ -6,14 +6,14 @@ description: >-
 
 # Putting It All Together
 
-While this guide is a work-in-progress, we have a full-fledged react-based/[wagmi](https://github.com/wagmi-dev/wagmi) web-app that showcases how to make use of the SDK. You can find it here: [`midas-starter`](https://github.com/Midas-Protocol/midas-starter)&#x20;
+While this guide is a work-in-progress, we have a full-fledged react-based/wagmi web-app that showcases how to make use of the SDK. You can find it here: TBA
 
-### **SDK instantiation**&#x20;
+### **SDK instantiation**
 
 ```typescript
 // Context
 export interface SDKContextData {
-  sdk: MidasSdk;
+  sdk: IonicSdk;
   address: string;
   disconnect: () => void;
   currentChain: Chain & {
@@ -40,7 +40,7 @@ export function useSDK() {
 const { sdk, address, currentChain } = useSDK();
 ```
 
-[Source code](https://github.com/Midas-Protocol/midas-starter/blob/master/src/context/SDKContext.tsx)
+Source code
 
 ### **Pool Creation**
 
@@ -58,7 +58,7 @@ const { sdk, address, currentChain } = useSDK();
 );
 ```
 
-[Source code](https://github.com/Midas-Protocol/midas-starter/blob/master/src/components/sdk/CreatePool.tsx#L80-L89)
+Source code
 
 ### Fetching Assets
 
@@ -79,4 +79,4 @@ const { sdk, address, currentChain } = useSDK();
   );
 ```
 
-[Source code](https://github.com/Midas-Protocol/midas-starter/blob/master/src/components/sdk/PoolsList.tsx)
+Source code

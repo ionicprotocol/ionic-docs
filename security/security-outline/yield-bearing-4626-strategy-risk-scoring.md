@@ -2,9 +2,9 @@
 
 ## Introduction
 
-ERC-4626 was created to allow DeFi protocol developers to use a standard when creating yield strategies across multi-asset, multi-chain configurations.  However, there are inherent risks to using Vaults that users should be aware of, including but not limited to:
+ERC-4626 was created to allow DeFi protocol developers to use a standard when creating yield strategies across multi-asset, multi-chain configurations. However, there are inherent risks to using Vaults that users should be aware of, including but not limited to:
 
-* Use of plugins could result in Midas pool risk, along with underlying protocol risk
+* Use of plugins could result in Ionic pool risk, along with underlying protocol risk
 * Impermanent loss due to the pool’s token price volatility
 * Liquidity issues in riskier token pairs
 
@@ -12,24 +12,24 @@ We've implemented a risk scoring framework for 4626 strategies aimed at giving u
 
 A 4626 strategy will have assigned a particular score in the rage 0-10, based on the following aspects, each having a specific weight towards the score.
 
-While the specifications are defined here, the implementation is completely open sourced in our monorepo, in the [`security package`](https://github.com/Midas-Protocol/monorepo/tree/development/packages/security)
+While the specifications are defined here, the implementation is completely open sourced in our monorepo, in the `security package`
 
-Many thanks to the folks at Beefy Finance for the inspiration on the specification hereby used, as ours is heavily inspired by theirs. &#x20;
+Many thanks to the folks at Beefy Finance for the inspiration on the specification hereby used, as ours is heavily inspired by theirs.
 
-* [Midas Risks (20%)](yield-bearing-4626-strategy-risk-scoring.md#category-midas-risks)
+* [Ionic Risks (20%)](yield-bearing-4626-strategy-risk-scoring.md#category-ionic-risks)
   * [Complexity](yield-bearing-4626-strategy-risk-scoring.md#subcategory-complexity)
   * [Time in the Market](yield-bearing-4626-strategy-risk-scoring.md#subcategory-time-in-market)
 * [Asset Risks (20%)](yield-bearing-4626-strategy-risk-scoring.md#category-asset-risks)
   * [Impermanent Loss](yield-bearing-4626-strategy-risk-scoring.md#subcategory-impermanent-loss)
-  * [Liquidity](yield-bearing-4626-strategy-risk-scoring.md#subcategory-liquidity)&#x20;
+  * [Liquidity](yield-bearing-4626-strategy-risk-scoring.md#subcategory-liquidity)
   * [Market Cap](yield-bearing-4626-strategy-risk-scoring.md#subcategory-market-cap)
 * [Platform Risks (60%)](yield-bearing-4626-strategy-risk-scoring.md#category-platform-risks)
   * [Reputation](yield-bearing-4626-strategy-risk-scoring.md#subcategory-reputation)
   * [Security](yield-bearing-4626-strategy-risk-scoring.md#subcategory-security)
 
-## Category: Midas Risks
+## Category: Ionic Risks
 
-These are risks related to the Midas Capital platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by this category.
+These are risks related to the Ionic platform itself. These could be risks added by the complexity of the vault strategy, if it's an experimental deployment, if it's been audited by others, etc. Twenty percent of the safety score is determined by this category.
 
 ### Subcategory: Complexity
 
@@ -43,13 +43,13 @@ Tracks the complexity of the 4626 strategy
 
 #### COMPLEXITY\_MID
 
-* Title: Midas strategy is of medium complexity
+* Title: Ionic strategy is of medium complexity
 * Explanation: Medium complexity strategies interact with two or more audited and well-known smart contracts. Its code is still easy to read, test and debug. It mitigates most implementation risks by keeping things simple, however the interactions between 2 or more systems add a layer of complexity.
 * Qualification Criteria: A medium complexity strategy interacts with 2 or more well-known smart contracts. This strategy automates the execution of a series of steps with no forking paths. Every time deposit(), harvest() and withdraw() is called, the same execution path is followed.
 
 #### COMPLEXITY\_HIGH
 
-* Title: Midas strategy is complex
+* Title: Ionic strategy is complex
 * Explanation: High complexity strategies interact with one or more well-known smart contracts. These advanced strategies present branching paths of execution. In some cases multiple smart contracts are required to implement the full strategy.
 * Qualification Criteria: A high level complexity strategy can be identified by one or more of the following factors: high cyclomatic complexity, interactions between two or more third-party platforms, implementation split between multiple smart contracts.
 
@@ -59,7 +59,7 @@ Tracks how long has this strategy been running without any major issues.
 
 #### BATTLE\_TESTED
 
-* Title: Midas strategy is battle tested
+* Title: Ionic strategy is battle tested
 * Explanation: The more time a particular strategy is running, the more likely that any potential bugs it had have been found, and fixed. This strategy has been exposed to attacks and usage for some time already, with little to no changes. This makes it sturdier.
 * Qualification Criteria:
   * 10+ strategies sharing the same code deployed

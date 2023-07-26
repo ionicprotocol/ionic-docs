@@ -20,7 +20,7 @@ There are 3 parts to "Ionic," and it is important to recognize the differences b
 
 **The Ionic Protocol:** A DeFi protocol that is built using Smart Contracts and run autonomously on EVM compatible blockchains in order to put crypto assets to use.
 
-**The Ionic UI:** A web app that provides easy to use tooling in order to interact with the decentralized protocol. This interface is one of the many ways of interacting with the Smart Contracts.
+**The Ionic Pro UI:** A web app that provides easy to use tooling in order to interact with the decentralized protocol. This interface is one of the many ways of interacting with the Smart Contracts.
 
 **The Core Team:** The core Ionic team that helps protocols to establish their own isolated pools.
 

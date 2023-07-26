@@ -1,5 +1,5 @@
 ---
-description: Looking for Midas brand assets?
+description: Looking for Ionic brand assets?
 ---
 
 # Media Kit

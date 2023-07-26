@@ -7,36 +7,9 @@ description: >-
 
 # Advanced Use-Cases
 
-### Deploying A Pool\*
-
-Programmatic pool creation is offered as an alternative to the UI flow we have implemented at [https://app.midascapital.xyz/\[chainId\]/create-pool](https://app.midascapital.xyz/56/create-pool)
-
-### `deployPool`
-
-**Arguments:**
-
-* `poolName: string`: canonical pool name. Can be edited by the pool's owner at a later point
-* `enforceWhitelist: boolean`: whether to limit pool interactions to a set of whitelisted addresses
-* `closeFactor: BigNumber`: the pool's Close Factor. See [Compound Finance docs](https://compound.finance/docs/comptroller#close-factor) for more information
-* `liquidationIncentive: BigNumber`: incentive given to the liquidators as profit for liquidating an unhealthy loan. [Compound Finance docs](https://compound.finance/docs/comptroller#liquidation-incentive)
-* `priceOracle: string`: contract address of the price oracle to be used
-* `priceOracleConf: OracleConf`: currently unused
-* `options: { from: string }`: from address from where to make the call
-* `whitelist: string[]`:An array of whitelisted addresses
-
-**Returns:**
-
-* `Promise<[string, string, string, number?]>`: array of pool data, namely:
-  * the pool's address (also referred to as the pool's Comptroller address)
-  * the Implementation Address: this is the Comptroller's _implementation_ address. Every new pool will basically deploy a new Comptroller, the implementation of which is deployed once by Midas Capital, and is subject to upgrading
-  * Price Oracle address
-  * Pool ID
-
-**\*NOTE:** permissionless pool creation is currently unsupported -- as we are still in public beta, we are limiting the pool creation to only the Midas Team and selected partners. [Get in contact with us](https://twitter.com/MidasCapitalxyz) if you'd like to get whitelisted for such functionality
-
 ## Managing A Pool's Assets
 
-One of the core tenants of the Midas protocol is the ability for pool operators to add support for any arbitrary asset\* to their pools. This can be done via the ui at [https://app.midascapital.xyz/\[chainId\]/pool/\[poolId\]/edit](https://app.midascapital.xyz/56/pool/1/edit) , but that is also achievable programmatically. Whether you're interested in creating a custom pool management UI for yourself, or enable other users to manage your pool, these functions should allow you to add and remove assets from the ones supported by the pool
+One of the core tenants of the Ionic protocol is the ability for pool operators to add support for any arbitrary asset\* to their pools. This can be done via the ui at https://app.ionic.money/\[chainId]/pool/\[poolId]/edit , but that is also achievable programmatically. Whether you're interested in creating a custom pool management UI for yourself, or enable other users to manage your pool, these functions should allow you to add and remove assets from the ones supported by the pool
 
 ### `deployAsset`
 
@@ -46,7 +19,7 @@ One of the core tenants of the Midas protocol is the ability for pool operators 
 * `config: MarketConfig`
 * `options: any`
 
-**\*NOTE:** arbitrary assets are supported only insofar as these assets have a valid price oracle for them. Currently, Midas Capital controls which oracles are deployed. We strive however to support our partners in adding assets they wish to the set of assets that we can currently support. [Get in contact with us](https://twitter.com/MidasCapitalxyz) if you'd like us to support more assets!
+**\*NOTE:** arbitrary assets are supported only insofar as these assets have a valid price oracle for them. Currently, Ionic team controls which oracles are deployed. We strive however to support our partners in adding assets they wish to the set of assets that we can currently support. Get in contact with us if you'd like us to support more assets!
 
 ## Running a Liquidity Mining Campaign
 
@@ -127,7 +100,7 @@ await sdk.setStaticRewardInfo(
 
 ```typescript
 import { ethers, Contract } from "ethers";
-import { ERC20Abi } from "@midas-capital/sdk";
+import { ERC20Abi } from "@ionicprotocol/sdk";
 
 
 const rewardTokenContract = new Contract(
@@ -145,13 +118,13 @@ await rewardTokenContract.transfer(
 
 That's it! Now every time a user interacts with the specified market, the user will automatically accrue LM rewards.
 
-A full-fledged run-down to how these are used can also be found in our [tests for the SDK](https://github.com/Midas-Protocol/monorepo/blob/development/packages/sdk/tests/unit/FlywheelModule.spec.ts#L2).
+A full-fledged run-down to how these are used can also be found in [our tests for the SDK](https://github.com/ionicprotocol/monorepo).
 
 ## Querying Flywheels for Accrued Rewards
 
 Running the liquidity mining campaign assumes also that pool operators can let users check the status of their rewards, how much has been accrued, and how much is claimable.
 
-This is also the case for markets for which a an [ERC-4626 strategy](broken-reference) exists. Basically, the Flywheel contracts and the Flywheel SDK module are your one-stop-shop for letting users introspect, claim, and interact with any yield-bearing operation.
+This is also the case for markets for which a an ERC-4626 strategy exists. Basically, the Flywheel contracts and the Flywheel SDK module are your one-stop-shop for letting users introspect, claim, and interact with any yield-bearing operation.
 
 ### `getFlywheelMarketRewardsByPoolWithAPR`
 
