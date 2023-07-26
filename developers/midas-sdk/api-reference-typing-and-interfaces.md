@@ -2,12 +2,12 @@
 
 ## Interfaces
 
-#### `FusePoolData`
+#### `IonicPoolData`
 
 ```typescript
-interface FusePoolData {
+interface IonicPoolData {
   id: number;
-  assets: NativePricedFuseAsset[];
+  assets: NativePricedIonicAsset[];
   creator: string;
   comptroller: string;
   name: string;
@@ -26,10 +26,10 @@ interface FusePoolData {
 }
 ```
 
-#### `NativePricedFuseAsset`
+#### `NativePricedIonicAsset`
 
 ```typescript
-interface NativePricedFuseAsset extends FuseAsset {
+interface NativePricedIonicAsset extends IonicAsset {
   supplyBalanceNative: number;
   borrowBalanceNative: number;
 
@@ -41,10 +41,10 @@ interface NativePricedFuseAsset extends FuseAsset {
 }
 ```
 
-#### `FuseAsset`
+#### `IonicAsset`
 
 ```typescript
-interface FuseAsset {
+interface IonicAsset {
   cToken: string;
   plugin?: MarketPluginConfig;
 
@@ -65,7 +65,7 @@ interface FuseAsset {
   reserveFactor: BigNumber;
 
   adminFee: BigNumber;
-  fuseFee: BigNumber;
+  ionicFee: BigNumber;
 
   borrowRatePerBlock: BigNumber;
   supplyRatePerBlock: BigNumber;
