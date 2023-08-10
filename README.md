@@ -30,7 +30,7 @@ Discord: [https://bit.ly/Ionic\_Discord](https://bit.ly/Ionic\_Discord)\
 \
 Telegram: [https://t.me/ionicmoney](https://t.me/ionicmoney)
 
-Twitter:[ ](https://twitter.com/MidasCapita1)[https://twitter.com/ionicprotocol](https://twitter.com/ionicprotocol)
+Twitter:[ ](https://twitter.com/MidasCapita1)[https://twitter.com/ionicmoney](https://twitter.com/ionicmoney)
 
 Website: [https://ionic.money/](https://ionic.money/)
 
