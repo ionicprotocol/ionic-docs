@@ -7,12 +7,12 @@
 ## Partner & Pool Operator Documents
 
 * [Overview](partner-and-pool-operator-documents/overview.md)
-* [Ionic For Partners](partner-and-pool-operator-documents/midas-for-partners/README.md)
-  * [Long-tail and exotic asset support](partner-and-pool-operator-documents/midas-for-partners/long-tail-and-exotic-asset-support.md)
-  * [Liquid Staking Tokens](partner-and-pool-operator-documents/midas-for-partners/liquid-staking-derivatives.md)
-  * [Forex Markets & Non-US Centric DeFi](partner-and-pool-operator-documents/midas-for-partners/forex-markets-and-non-us-centric-defi.md)
-  * [Delta-Neutral Strategies](partner-and-pool-operator-documents/midas-for-partners/delta-neutral-strategies.md)
-  * [AMM LP Pools](partner-and-pool-operator-documents/midas-for-partners/amm-lp-pools.md)
+* [Ionic For Partners](partner-and-pool-operator-documents/ionic-for-partners/README.md)
+  * [Long-tail and exotic asset support](partner-and-pool-operator-documents/ionic-for-partners/long-tail-and-exotic-asset-support.md)
+  * [Liquid Staking Tokens](partner-and-pool-operator-documents/ionic-for-partners/liquid-staking-derivatives.md)
+  * [Forex Markets & Non-US Centric DeFi](partner-and-pool-operator-documents/ionic-for-partners/forex-markets-and-non-us-centric-defi.md)
+  * [Delta-Neutral Strategies](partner-and-pool-operator-documents/ionic-for-partners/delta-neutral-strategies.md)
+  * [AMM LP Pools](partner-and-pool-operator-documents/ionic-for-partners/amm-lp-pools.md)
 * [Advanced Features](partner-and-pool-operator-documents/advanced-features.md)
 * [Getting Started](partner-and-pool-operator-documents/getting-started.md)
 * [Pool Customisations](partner-and-pool-operator-documents/pool-customisations/README.md)

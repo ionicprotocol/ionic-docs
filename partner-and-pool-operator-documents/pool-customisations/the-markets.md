@@ -41,7 +41,7 @@ For all intents and purposes, this is an extension of the Collateral Caps: It es
 
 The interest rate model is the graphical representation of the relationship between interest rates and the utilization of an asset in that market. It shows how the interest rate on a loan changes as the utilization of the loaned assets increases.
 
-While most of the assets in a pool can be used with a standard interest model such as [Compound’s Jump Rate Model](https://ianm.com/posts/2020-12-20-understanding-compound-protocols-interest-rates), in many cases a pool might benefit from a specific asset to be borrowable with a tailored interest rate curve. See our [use-cases](../midas-for-partners/) for some interesting case-studies of how our team developed a customised interest rate model for a specific asset.
+While most of the assets in a pool can be used with a standard interest model such as [Compound’s Jump Rate Model](https://ianm.com/posts/2020-12-20-understanding-compound-protocols-interest-rates), in many cases a pool might benefit from a specific asset to be borrowable with a tailored interest rate curve. See our [use-cases](../ionic-for-partners/) for some interesting case-studies of how our team developed a customised interest rate model for a specific asset.
 
 #### Multiple Markets, Same Underlying
 

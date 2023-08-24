@@ -6,4 +6,4 @@ In this section, we’ll explore all the knobs & levers that are available to yo
 
 Everything described in this documentation is a service we offer free of charge, forever.
 
-Ready to get going? Check out the [use cases](midas-for-partners/) or get in touch with us to [get started](getting-started.md).
+Ready to get going? Check out the [use cases](ionic-for-partners/) or get in touch with us to [get started](getting-started.md).
