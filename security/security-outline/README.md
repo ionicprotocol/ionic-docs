@@ -28,7 +28,7 @@ Learn more about Ionic approach to these so called Oracle Risks [here](oracle-se
 **2.** Smart Contract risk of the Ionic Core contracts and the Ionic SDK/FE. These risks are mainly a consequence of code quality and engineering processes. The main mitigation factors are extensive internal testing infrastructure, usage of battle tested and standardized code wherever possible and external code audits.
 
 \
-Learn more about Ionic engineering practices [here](../../developers/midas-sdk/), and about our risk-scoring framework for ERC4626 strategies [here](yield-bearing-4626-strategy-risk-scoring.md).\
+Learn more about Ionic engineering practices [here](../../developers/ionic-sdk/), and about our risk-scoring framework for ERC4626 strategies [here](yield-bearing-4626-strategy-risk-scoring.md).\
 \
 **3.** Pool Operator risk of the independent operators using underlying Ionic contracts. These risks are mostly centered around keeping bad actors from abusing the system. Mitigation mechanisms are the permissioning of the oracle creation process and the B2B approach of the Ionic to work very closely with our partners.
 

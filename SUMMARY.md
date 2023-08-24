@@ -30,14 +30,14 @@
 
 ## Developers
 
-* [Ionic SDK](developers/midas-sdk/README.md)
-  * [Chain Configuration and Addresses](developers/midas-sdk/chain-configuration-and-addresses.md)
-  * [Data Fetching & Pool Introspection](developers/midas-sdk/data-fetching-and-pool-introspection.md)
-  * [Funding Operations](developers/midas-sdk/funding-operations.md)
-  * [Advanced Use-Cases](developers/midas-sdk/advanced-use-cases.md)
-  * [Liquidations](developers/midas-sdk/liquidations.md)
-  * [Putting It All Together](developers/midas-sdk/putting-it-all-together.md)
-  * [API Reference, Typing & Interfaces](developers/midas-sdk/api-reference-typing-and-interfaces.md)
+* [Ionic SDK](developers/ionic-sdk/README.md)
+  * [Chain Configuration and Addresses](developers/ionic-sdk/chain-configuration-and-addresses.md)
+  * [Data Fetching & Pool Introspection](developers/ionic-sdk/data-fetching-and-pool-introspection.md)
+  * [Funding Operations](developers/ionic-sdk/funding-operations.md)
+  * [Advanced Use-Cases](developers/ionic-sdk/advanced-use-cases.md)
+  * [Liquidations](developers/ionic-sdk/liquidations.md)
+  * [Putting It All Together](developers/ionic-sdk/putting-it-all-together.md)
+  * [API Reference, Typing & Interfaces](developers/ionic-sdk/api-reference-typing-and-interfaces.md)
 * [Deployed Contract Addresses](developers/deployed-contract-addresses.md)
 
 ## Support
