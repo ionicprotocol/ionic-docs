@@ -196,6 +196,6 @@ Time Weighted Average Price. TWAP oracles are implemented by Uniswap and Sushisw
 
 Volume Weighted Average Price. Chainlink price feeds are an example of this.They track prices on all exchanges - CEX and DEX - and weight by real volume.
 
-### 51% Attack <a href="#_51-attack" id="_51-attack"></a>
+### 51% Attack <a href="#id-51-attack" id="id-51-attack"></a>
 
 Single entity or organization taking control of the blockchain voting power through their monopoly of mining power.

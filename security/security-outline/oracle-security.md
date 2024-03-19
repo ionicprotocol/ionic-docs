@@ -1,7 +1,7 @@
 ---
 description: >-
   Overview of the security aspects of one of the core pieces of Ionic's
-  Infrastructure
+  Infrastructure.
 ---
 
 # Oracle Security
@@ -26,7 +26,9 @@ To give a simple example, an Oracle that only uses UniswapV3 prices as its prici
 
 \[2] [https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/](https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/)
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-10-06_at_11.54.08.png" alt=""><figcaption><p>"large" swap causing an enormous price impace</p></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/spaces-HQwvYO2d3c8YPJCH1Rxl-uploads-git-blob-7849487cbf240fa6909232f0fb11670f2e3f461a-Screenshot_2022-10-06_at_11.54.08.png" alt=""><figcaption></figcaption></figure>
 
 ## Oracles At Ionic
 
@@ -34,14 +36,11 @@ Our strategy around which Oracles we support follows directly from our philosoph
 
 Assets that do not match our criteria for any of these parameters are vetted from the platform until either a better Oracle solution is found, or the liquidity for the asset passes our thresholds.
 
-In particular, we maintain our "permissioned" approach and take the liberty to only support assets for which there exists an oracle that passes certain security criteria. See below the specific oracles we support and are willing to use for pricing assets within our platform
-
 ### Oracle Types
 
 * Oracle Providers: oracles that are based on 2+ sources (such as Chainlink price feeds, or custom price feeds as provided by DIA data), these are price feeds given by aggregators that generally query a disparate set of data sources to arrive at a price feed
 * UniswapV2 oracles: as long as they pass a specific liquidity threshold (defined per-asset, based on total available on-chain liquidity of that asset), and implement a time-weighted moving average of at least the last 10 observations
 * UniswapV3 oracles: as long as their cost of attack exceeds the total available pool liquidity by a factor of 2
-* Combined price feeds: for exotic tokens, such as LP tokens, fair pricing models exist and have been extensively validated. As long as price feeds for the underlying assets of such LPs are secure, LP tokens from a variety of different sources can be safely calculated. This does mean however that the manipulation risk is combined each asset’s manipulability. We take this into account when evaluating such oracles.
 
 ### Oracle Risk Mitigation
 
@@ -57,11 +56,3 @@ Specifically, for every asset that is supported in Ionic we implement a continue
 * The latest observation does not deviate from an alternate data source (possibly not trustless, e.g. Coingecko) by more than X%, where X is determined per asset (stablecoins, for instance, will have a lower threshold than less liquid / smaller cap assets)
 
 Our oracle monitors for assets based on AMMs will trigger alerts, and pause borrowing if the on-chain liquidity for an asset drops below pre-defined thresholds, configured per-asset.
-
-The source code can be found in our [monorepo](https://github.com/ionicprotocol/monorepo/tree/development/packages/monitors/oracle).
-
-#### Generalised Oracle Risk Score \[Currently in Development]
-
-While developing tools for hardening the protocol should ensure a baseline level of security to our platform, we acknowledge that no solution will provide fully comprehensive protection against attacks or external failures. In light of this, we believe that the best
-
-Our upcoming feature, the Oracle Risk Score, will be the first of its kind: a general purpose scoring system for any oracle our platform supports, which includes cost-of-attack calculations for oracles derived from a single chain source.
