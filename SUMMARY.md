@@ -5,6 +5,7 @@
 ## Ionic Protocol
 
 * [Lending](ionic-protocol/lending.md)
+* [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Borrowing](ionic-protocol/borrowing.md)
 * [Protocol Fees (Revenues)](ionic-protocol/protocol-fees-revenues.md)
 * [Oracles](ionic-protocol/oracles.md)
