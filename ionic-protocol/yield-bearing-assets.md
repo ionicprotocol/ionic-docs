@@ -18,6 +18,6 @@ These protocols let you stake your ETH and/or LST and mint a liquid derivative f
 \
 We believe that the future is behind yield-bearing assets thus we put utmost attention to any such protocol coming to Mode to partner up for the maximum capital efficiency for any user. You can see the current available assets in the [app](https://app.ionic.money/) and their respectable 0x in the [docs](https://doc.ionic.money/ionic-documentation/ionic-protocol/token-addresses). \
 \
-**Yield-Bearing assets - the loans that pay for themselves!**
+**Yield-Bearing assets on Ionic - the loans that pay for themselves!**
 
 ###
