@@ -14,3 +14,4 @@ On Ionic users can earn points by lending and borrowing assets. These points are
 * **Supply:** All the supply positions earn points proportionally to the dollar value deposited.&#x20;
 * **Borrow:** Borrows are the main driver of the protocol’s success and help to grow the overall Mode DeFi ecosystem. Therefore, borrows will be rewarded more than a simple supply on every dollar borrowed.
 * **Double counting:** Supply and borrow points are counted separately and stacked.
+* **Special promotions:** Get x2 Ionic points for supplying ezETH, weETH, Stone.
