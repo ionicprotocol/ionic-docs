@@ -6,10 +6,9 @@
 
 * [Introduction](ionic-protocol/introduction.md)
 * [Lending](ionic-protocol/lending.md)
-* [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Borrowing](ionic-protocol/borrowing.md)
+* [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Protocol Fees (Revenues)](ionic-protocol/protocol-fees-revenues.md)
-* [Oracles](ionic-protocol/oracles.md)
 
 ## Tokenomics
 
@@ -20,6 +19,7 @@
 
 * [Helpful Links](resources/helpful-links.md)
 * [Token Addresses](resources/token-addresses.md)
+* [Oracles](resources/oracles.md)
 * [Security Outline](resources/security-outline/README.md)
   * [Oracle Security](resources/security-outline/oracle-security.md)
   * [Liquidity Monitoring](resources/security-outline/liquidity-monitoring.md)
