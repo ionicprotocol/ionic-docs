@@ -6,7 +6,8 @@
 
 * [Introduction](ionic-protocol/introduction.md)
 * [Supply & Earn](ionic-protocol/supply-and-earn.md)
-* [Borrowing](ionic-protocol/borrowing.md)
+* [Borrow](ionic-protocol/borrow.md)
+* [Liquidations](ionic-protocol/liquidations.md)
 * [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Protocol Fees (Revenues)](ionic-protocol/protocol-fees-revenues.md)
 

@@ -6,7 +6,7 @@ Supply any of the available assets through Ionic dashboard and start earning int
 
 ## How to supply?
 
-Head over to the "Markets" section of the dApp, choose the asset you would like to supply and click "Supply/Withdraw" button. In the pop-up window choose the amount you want to supply and either enable it as collateral or not (enabling asset as collateral will allow you to borrow against it, [more details in the next section](borrowing.md)). Once the 'approve spend' and 'deposit' tx goes through, you will **start earning supply interest + points associated with the asset**.&#x20;
+Head over to the "Markets" section of the dApp, choose the asset you would like to supply and click "Supply/Withdraw" button. In the pop-up window choose the amount you want to supply and either enable it as collateral or not (enabling asset as collateral will allow you to borrow against it, [more details in the next section](borrow.md)). Once the 'approve spend' and 'deposit' transaction goes through, you will **start earning supply interest + points associated with the asset**.&#x20;
 
 ## How to withdraw?
 

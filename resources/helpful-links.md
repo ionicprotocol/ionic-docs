@@ -1,6 +1,6 @@
 # Helpful Links
 
-<figure><img src="../.gitbook/assets/rever.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bababan_rev.png" alt=""><figcaption></figcaption></figure>
 
 **Website:** [https://ionic.money/](https://ionic.money/)
 

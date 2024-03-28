@@ -1,6 +1,6 @@
 # Introduction
 
-<figure><img src="../.gitbook/assets/discord bg 3bg2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bababan.png" alt=""><figcaption></figcaption></figure>
 
 Ionic is a decentralised non-custodial money market protocol, supported by a comprehensive security monitoring and failsafe systems. Ionic gives users complete control over their funds by providing best interest rates on Mode Network. With meticulously designed tokenonomics model, Ionic aims for robust and long-lasting growth, cultivating exemplary conduct among all participants for the collective benefit of every stakeholder.
 
