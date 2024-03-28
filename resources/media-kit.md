@@ -30,4 +30,6 @@ description: Looking for Ionic brand assets?
 
 #### **Archive:** <a href="#archive" id="archive"></a>
 
-{% file src="../.gitbook/assets/Ionic Media Kit.zip" %}
+Logo SVG files can be found in the .zip file.
+
+{% file src="../.gitbook/assets/Ionic Media Kit (2).zip" %}

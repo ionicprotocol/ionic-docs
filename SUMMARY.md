@@ -10,7 +10,6 @@
 * [Borrowing](ionic-protocol/borrowing.md)
 * [Protocol Fees (Revenues)](ionic-protocol/protocol-fees-revenues.md)
 * [Oracles](ionic-protocol/oracles.md)
-* [Token Addresses](ionic-protocol/token-addresses.md)
 
 ## Tokenomics
 
@@ -20,17 +19,13 @@
 ## Resources
 
 * [Helpful Links](resources/helpful-links.md)
+* [Token Addresses](resources/token-addresses.md)
 * [Security Outline](resources/security-outline/README.md)
   * [Oracle Security](resources/security-outline/oracle-security.md)
   * [Liquidity Monitoring](resources/security-outline/liquidity-monitoring.md)
-
-***
-
-* [Audit](audit.md)
-* [Media Kit](media-kit.md)
-* [DeFi Terms Glossary](defi-terms-glossary.md)
-
-## SUPPORT
+* [Audit](resources/audit.md)
+* [Media Kit](resources/media-kit.md)
+* [DeFi Terms Glossary](resources/defi-terms-glossary.md)
 
 ## DOCUMENTS
 
