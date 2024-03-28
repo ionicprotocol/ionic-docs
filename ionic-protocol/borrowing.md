@@ -1,7 +1,3 @@
----
-description: Borrowing on Ionic
----
-
 # Borrowing
 
 To initiate a loan, borrowers must supply and enable asset as collaterall. This allows them to borrow in proportion to the value of their assets. \
