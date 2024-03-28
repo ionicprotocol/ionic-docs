@@ -4,6 +4,7 @@
 
 ## Ionic Protocol
 
+* [Ionic Protocol](ionic-protocol/ionic-protocol.md)
 * [Lending](ionic-protocol/lending.md)
 * [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Borrowing](ionic-protocol/borrowing.md)
