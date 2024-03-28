@@ -1,11 +1,6 @@
----
-description: >-
-  Mode Network's launch and incentive program based on point systems will be
-  amplified by Ionic's own launch Point System, with a 'Points Squared' scenario
-  emerging for users.
----
-
 # Stage 1: Points Squared
+
+<figure><img src="../.gitbook/assets/discord bg 4bgg.png" alt=""><figcaption></figcaption></figure>
 
 Points provide a quantitative answer to the question of how much a user has contributed to the app and its ecosystem’s success. Points can be earned in two ways on Ionic. As more features are added to the product, new ways of earning points may appear as well.
 

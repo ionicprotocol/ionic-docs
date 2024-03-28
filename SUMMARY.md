@@ -4,7 +4,7 @@
 
 ## Ionic Protocol
 
-* [Ionic Protocol](ionic-protocol/ionic-protocol.md)
+* [Introduction](ionic-protocol/introduction.md)
 * [Lending](ionic-protocol/lending.md)
 * [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Borrowing](ionic-protocol/borrowing.md)
@@ -17,20 +17,20 @@
 * [Stage 1: Points Squared](tokenomics/stage-1-points-squared.md)
 * [Stage 2: TGE (SOON™)](tokenomics/stage-2-tge-soon-tm.md)
 
-## SECURITY
+## Resources
 
-* [Security Outline](security/security-outline/README.md)
-  * [Oracle Security](security/security-outline/oracle-security.md)
-  * [Liquidity Monitoring](security/security-outline/liquidity-monitoring.md)
+* [Helpful Links](resources/helpful-links.md)
+* [Security Outline](resources/security-outline/README.md)
+  * [Oracle Security](resources/security-outline/oracle-security.md)
+  * [Liquidity Monitoring](resources/security-outline/liquidity-monitoring.md)
 
 ***
 
 * [Audit](audit.md)
+* [Media Kit](media-kit.md)
+* [DeFi Terms Glossary](defi-terms-glossary.md)
 
 ## SUPPORT
-
-* [Media Kit](support/media-kit.md)
-* [DeFi Terms Glossary](support/defi-terms-glossary.md)
 
 ## DOCUMENTS
 
