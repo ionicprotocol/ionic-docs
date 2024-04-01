@@ -8,7 +8,7 @@ Ionic is a decentralised non-custodial money market protocol, supported by a com
 
 * **Revenue Sharing**: Distributes a portion of the platform's fees + a portion of SFS rewards to users on a weekly basis, relative to their stake.&#x20;
 * **Unrivalled asset support:** Biggest variety of supported assets on Mode Network, including but not limited to LRTs, LSTs, and all of the major tokens available, with the ability to easily add new asset classes as new protocols onboard onto the network.
-* **Looping:** One-click looping to open a levare position on the desired assets (Coming soon).
+* **Looping:** One-click looping to open a leverage position on the desired assets (Coming soon).
 
 ## In Code We Trust
 
