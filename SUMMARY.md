@@ -19,7 +19,8 @@
 ## Resources
 
 * [Helpful Links](resources/helpful-links.md)
-* [Token Addresses](resources/token-addresses.md)
+* [$ION Addresses](resources/usdion-addresses.md)
+* [Market Addresses](resources/market-addresses.md)
 * [Oracles](resources/oracles.md)
 * [Security Outline](resources/security-outline/README.md)
   * [Oracle Security](resources/security-outline/oracle-security.md)
