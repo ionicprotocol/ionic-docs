@@ -12,7 +12,7 @@ Blockchain oracles are entities that connect blockchains to external systems, th
 
 Within the context of borrowing and lending, oracles are an essential part of the infrastructure. In particular, Oracles are needed to correctly _price_ an asset, as asset prices are not directly available on the blockchain.
 
-Ionic utilizes the decentralized [RedStone](https://redstone.finance/) and [Pyth oracles](https://pyth.network/) as a primary source of untamperable and up-to-date token price data to smart contracts on Mode Network.
+Ionic utilizes the decentralized [RedStone](https://redstone.finance/), [Pyth oracles](https://pyth.network/) and [API3](https://api3.org) as a primary source of untamperable and up-to-date token price data to smart contracts on Mode Network.
 
 ### Oracle Types
 
