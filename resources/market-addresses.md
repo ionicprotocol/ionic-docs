@@ -1,5 +1,7 @@
 ---
-description: Addresses of Ionic markets
+description: >-
+  ionAssets are receipt tokens that represent assets deposited into Ionic
+  markets.
 ---
 
 # Market Addresses
