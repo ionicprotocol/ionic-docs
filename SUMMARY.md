@@ -10,11 +10,20 @@
 * [Liquidations](ionic-protocol/liquidations.md)
 * [Yield-Bearing Assets](ionic-protocol/yield-bearing-assets.md)
 * [Protocol Fees (Revenues)](ionic-protocol/protocol-fees-revenues.md)
+* [Isolated Pools](ionic-protocol/isolated-pools.md)
+* [Supply Vaults](ionic-protocol/supply-vaults.md)
 
 ## Tokenomics
 
 * [Stage 1: Points Squared](tokenomics/stage-1-points-squared.md)
-* [Stage 2: TGE (SOON™)](tokenomics/stage-2-tge-soon-tm.md)
+* [Stage 2: $ION](tokenomics/stage-2-usdion/README.md)
+  * [Introducing $ION](tokenomics/stage-2-usdion/introducing-usdion.md)
+  * [Tokenomics](tokenomics/stage-2-usdion/tokenomics.md)
+  * [veION](tokenomics/stage-2-usdion/veion.md)
+  * [KPI-based Emissions](tokenomics/stage-2-usdion/kpi-based-emissions.md)
+  * [Ionic Score](tokenomics/stage-2-usdion/ionic-score.md)
+  * [Curators](tokenomics/stage-2-usdion/curators.md)
+* [Stage 3: Superchain Vision](tokenomics/stage-3-superchain-vision.md)
 
 ## Resources
 
