@@ -33,8 +33,8 @@ All LP token positions are eligible to be staked for $veION and can direct votin
 Voting power is not 1:1 per LP token locked but will be boosted via a linear time-lock system:
 
 * 180 Days - 1x boost
-* 365 Year - 1.25 boost
-* 1.5 Year ns - 1.5x boost
+* 365 Days - 1.25 boost
+* 1.5 Years - 1.5x boost
 * 2 Years - 2x boost
 
 We understand that all LPers within our ecosystem may have varying user profiles, thus $veION holders are able to unlock their LP’d $ION early. If users wish to unlock their $veION, they are subject to a fee based on both linearly decays based on the amount of time left in the lock, based on the global ratio of $veION to circulating $ION.
