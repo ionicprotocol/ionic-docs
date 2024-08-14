@@ -14,7 +14,7 @@
 
 **Github:** [https://github.com/ionicprotocol](https://github.com/ionicprotocol)
 
-**$ION 0x:** [0x18470019bF0E94611f15852F7e93cf5D65BC34CA](https://explorer.mode.network/token/0x18470019bF0E94611f15852F7e93cf5D65BC34CA)
+**YouTube:** [https://www.youtube.com/@ionic\_protocol\_official](https://www.youtube.com/@ionic\_protocol\_official)
 
 **Portal:** TBA
 
