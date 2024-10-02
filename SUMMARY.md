@@ -35,7 +35,7 @@
   * [Oracle Security](resources/security-outline/oracle-security.md)
   * [Liquidity Monitoring](resources/security-outline/liquidity-monitoring.md)
 * [Audit](resources/audit.md)
-* [Media Kit](resources/media-kit.md)
+* [Brand Kit](resources/brand-kit.md)
 * [DeFi Terms Glossary](resources/defi-terms-glossary.md)
 
 ## DOCUMENTS
