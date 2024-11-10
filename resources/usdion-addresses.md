@@ -8,7 +8,7 @@ description: Addresses and pools of $ION across chains
 
 <table><thead><tr><th width="176">Chain</th><th>Address </th></tr></thead><tbody><tr><td>Mode</td><td><a href="https://explorer.mode.network/address/0x18470019bf0e94611f15852f7e93cf5d65bc34ca?tab=txs">0x18470019bf0e94611f15852f7e93cf5d65bc34ca</a></td></tr><tr><td>Base</td><td><a href="https://basescan.org/address/0x3ee5e23eee121094f1cfc0ccc79d6c809ebd22e5">0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5</a></td></tr><tr><td>Optimism</td><td><a href="https://optimistic.etherscan.io/address/0x887d1c6a4f3548279c2a8a9d0fa61b5d458d14fc#readProxyContract">0x887d1c6A4f3548279c2a8A9D0FA61B5D458d14fC</a></td></tr></tbody></table>
 
-**$xION Addresses**&#x20;
+**$IONx Addresses**&#x20;
 
 <table><thead><tr><th width="176">Chain</th><th>Address </th></tr></thead><tbody><tr><td>Base</td><td><a href="https://basescan.org/token/0xe58267cd7299c29a1b77f4e66cd12dd24a2cd2fd">0xe58267cd7299c29a1b77F4E66Cd12Dd24a2Cd2FD</a></td></tr></tbody></table>
 
