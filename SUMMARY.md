@@ -30,7 +30,6 @@
 * [Helpful Links](resources/helpful-links.md)
 * [$ION Addresses](resources/usdion-addresses.md)
 * [Market Addresses](resources/market-addresses.md)
-* [API](resources/api.md)
 * [Oracles](resources/oracles.md)
 * [Security Outline](resources/security-outline/README.md)
   * [Oracle Security](resources/security-outline/oracle-security.md)
@@ -43,3 +42,8 @@
 
 * [Privacy Policy](documents/privacy-policy.md)
 * [Terms and Conditions](documents/terms-and-conditions.md)
+
+## API
+
+* [Ionic Rewards api](api/ionic-rewards-api.md)
+* [APY API](api/apy-api.md)
