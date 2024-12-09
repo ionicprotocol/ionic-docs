@@ -45,5 +45,5 @@
 
 ## API
 
-* [Ionic Rewards api](api/ionic-rewards-api.md)
 * [APY API](api/apy-api.md)
+* [Ionic Rewards api](api/ionic-rewards-api.md)
