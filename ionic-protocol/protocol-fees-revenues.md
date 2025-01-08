@@ -8,4 +8,3 @@ By default, 10% of all interest paid is distributed to the treasury.
 
 * Lenders's interest fees
 * Liquidation penalty fees
-* Performance fees on yield bearing assets
